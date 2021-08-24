@@ -1,0 +1,38 @@
+{
+    "name": "candocker/third",
+    "type": "project",
+    "keywords": [
+        "php",
+        "application",
+        "third",
+        "resource"
+    ],
+    "description": "A application of third",
+    "license": "MIT",
+    "require": {
+        "php": "^7.3.0"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "ModuleThird\\": "app/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ModuleThird\\Test\\": "./test/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": [],
+    "scripts": {
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://mirrors.aliyun.com/composer/"
+        }
+    }
+}
